@@ -1,3 +1,6 @@
+*{
+    outline: 2px solid red;
+}
 .parag{
     font-size: 32px;
     font-weight: bold;
