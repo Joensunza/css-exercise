@@ -1,0 +1,39 @@
+#content{
+    display: flex;
+}
+
+div > div{
+    border: 3px solid rgb(0 0 0 / 20%)
+}
+
+.box1,
+.box2,
+.box3,
+.box6{
+    flex-grow: 1;
+}
+
+.box4,
+.box5{
+    flex-grow: 2;
+    border:3px solid rgb(0 0 0 / 20%);
+}
+
+.box1{
+    background-color: #ff0000;
+}
+.box2{
+    background-color: #1eff00;
+}
+.box3{
+    background-color: #b27d7d;
+}
+.box4{
+    background-color: #0d5896;
+}
+.box5{
+    background-color: #05964d;
+}
+.box6{
+    background-color: #a46a06;
+}

@@ -8,6 +8,7 @@ resize:horizontal;
 background-color: #ffffff;
 margin:1em;
 overflow:hidden;
+flex-direction:row;
 } 
 
 .item{
