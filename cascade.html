@@ -11,12 +11,93 @@
      <p class="parag">I'm just a paragraph with extra bold text!</p>
      <p class="small-para">I'm a smaller paragraph, also with extra bold text!</p>
 
-     <button id="comfirm-button" class="comfirm button">Confirm</button>
-     <button id="cancel-button" class="cancel button">Cancel</button>
+     <!-- <button id="comfirm-button" class="comfirm button">Confirm</button>
+     <button id="cancel-button" class="cancel button">Cancel</button> -->
 
     <div class="text">I'm a div with thin text!</div>
     <div class="text">I'm a div with thin text and a child div!
     <div class="text child">I'm a smaller child div with extra bold text.</div>
     </div>
+    <!-- <button>Your Name is Joseph?</button> -->
+
+    <button>Press Me!</button>
+    <div id="greeting"></div>
+  
+
+    <script>
+
+        const button = document.querySelector("button");
+
+        function greet(){
+            const name = prompt("What is your name?");
+            const nameUpper = name.toUpperCase();
+            const greeting = document.querySelector("#greeting");
+            greeting.textContent = `Hello ${nameUpper}, nice to meet you!`;
+        }
+
+        button.addEventListener("click",greet);
+
+        console.log("One day you will knew\nthat you are the best programmer in the world!");
+
+        const coolbandname ="Front ";
+        const number = 242;
+        const bandname = coolbandname + number;
+        console.log(coolbandname + number);
+        console.log("The band name is " + bandname);
+        console.log("The length of the band name is " + coolbandname.length);
+
+        const firstName = "Joseph Jackson Nsunza";
+
+        if(firstName.startsWith("Nsunza")){
+            console.log("The name starts with nsunza");
+        } else {
+            console.log("The name does not start with nsunza");
+        }
+
+        if(firstName.endsWith("Nsunza")){
+            console.log("The name ends with nsunza");
+        } else {
+            console.log("The name does not end with nsunza");
+        }
+
+        if(firstName.includes("Nsu")){
+            console.log("The name of the subject is found");
+        } else {
+            console.log("The name does not contain the subject");
+        }
+
+
+        // let firstname ="Joseph";
+        // let lastname = "Jackson";
+        // let age=26;
+        // const pi =3.14;
+        // // pi = 3.14159;
+        // console.log("The known value of pi is " +pi);
+        // console.log("Hello " + firstname + " " + lastname);
+        // console.log("Your age is " + age);
+
+        // const max = 57;
+        // const actual = max - 13;
+        // const percentage = actual / max;
+        // console.log("The percentage is " + percentage);
+
+        // let age = 27,
+        //     firstName = "Joseph",
+        //     lastName = "Jackson";
+
+
+        // function updateName() {
+        // const name = prompt("Enter a new name");
+        // button.textContent = `My name is : ${name}`;
+        // }
+
+        // const button = document.querySelector("button");
+
+        // button.addEventListener("click", updateName);
+        
+            
+    </script>
 </body>
+
+
 </html>

@@ -37,3 +37,46 @@ div > div{
 .box6{
     background-color: #a46a06;
 }
+
+.container{
+  display: flex;
+  background-color:#0d5896;
+  height: 200px;
+  width:30%;
+  padding: 10px;
+  border: 4px solid #05964d;
+  
+}
+
+.item{
+    height:100px;
+    width:100px;
+    background-color: #00dceb;
+    border: 3px solid #15455d;
+   flex:1;
+}
+
+
+/* form styled here */
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap:16px;
+
+}
+
+#name{
+    flex-grow: 1;
+    flex-basis: 180px;
+}
+#email{
+    flex-grow: 1;
+    flex-basis: 180px;
+}
+
+#butn{
+    flex-grow: 1;
+    flex-basis: 80px;
+}
